@@ -31,7 +31,7 @@ jobs:
 
     - name: Docker build 
       run: |
-        docker build -t movie-frontend .`
+        docker build -t movie-frontend .
 
     - name: Docker push
       run: |
